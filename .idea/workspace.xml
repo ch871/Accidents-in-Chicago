@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1689282-73cd-44ec-855e-c99b9032e4ce" name="Changes" comment="create requirements and connenct to database">
-      <change afterPath="$PROJECT_DIR$/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/csv_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c1689282-73cd-44ec-855e-c99b9032e4ce" name="Changes" comment="create init year month and day colaction">
+      <change beforePath="$PROJECT_DIR$/database/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/csv_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository/csv_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728544904454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create init year month and day colaction">
+      <option name="closed" value="true" />
+      <created>1728556702731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728556702731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add data to csv" />
     <MESSAGE value="create requirements and connenct to database" />
-    <option name="LAST_COMMIT_MESSAGE" value="create requirements and connenct to database" />
+    <MESSAGE value="create init year month and day colaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="create init year month and day colaction" />
   </component>
 </project>

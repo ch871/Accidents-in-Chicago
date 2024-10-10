@@ -1,6 +1,6 @@
 import csv
 import os
-from database.connect import daily, weekly, monthly
+from database.connect import daily, weekly, monthly, area_colaction
 from utils.data_utils import parse_date, get_week_range, safe_int
 
 
@@ -61,4 +61,18 @@ def init_accidents():
             }},
             upsert=True
         )
+        # Area document
+        area_colaction.update_one(
+            {'area': area},
+            {'$inc': {
+                'total_accidents': 1,
+                'injuries.total': safe_int(row['INJURIES_TOTAL']),
+                'injuries.fatal': safe_int(row['INJURIES_FATAL']),
+                'injuries.non_fatal': safe_int(row['INJURIES_TOTAL']) - safe_int(row['INJURIES_FATAL']),
+                f'contributing_factors.{row["PRIM_CONTRIBUTORY_CAUSE"]}': 1,
+            }},
+            upsert=True
+        )
+
+
 init_accidents()
