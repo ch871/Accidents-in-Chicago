@@ -12,7 +12,7 @@ def read_csv(path: str):
 
 
 def init_accidents():
-    data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'data20000.csv')
+    data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'data.csv')
     for row in read_csv(data_path):
         crash_date = parse_date(row['CRASH_DATE'])
         area = row['BEAT_OF_OCCURRENCE']
