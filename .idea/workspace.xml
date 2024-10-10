@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1689282-73cd-44ec-855e-c99b9032e4ce" name="Changes" comment="aded init area">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/area_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/date_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/csv_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository/csv_repository.py" afterDir="false" />
+    <list default="true" id="c1689282-73cd-44ec-855e-c99b9032e4ce" name="Changes" comment="aded repository for area and date">
+      <change afterPath="$PROJECT_DIR$/controlers/area_controler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controlers/data_controler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728560315698</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aded repository for area and date">
+      <option name="closed" value="true" />
+      <created>1728561803454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728561803454</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +119,7 @@
     <MESSAGE value="create requirements and connenct to database" />
     <MESSAGE value="create init year month and day colaction" />
     <MESSAGE value="aded init area" />
-    <option name="LAST_COMMIT_MESSAGE" value="aded init area" />
+    <MESSAGE value="aded repository for area and date" />
+    <option name="LAST_COMMIT_MESSAGE" value="aded repository for area and date" />
   </component>
 </project>
