@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1689282-73cd-44ec-855e-c99b9032e4ce" name="Changes" comment="aded repository for area and date">
-      <change afterPath="$PROJECT_DIR$/controlers/area_controler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlers/data_controler.py" afterDir="false" />
+    <list default="true" id="c1689282-73cd-44ec-855e-c99b9032e4ce" name="Changes" comment="create endpoint for area andrepo (area, date)">
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/area_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/date_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlers/area_controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlers/area_controler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlers/data_controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlers/data_controler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for date_test.test_get_count_of_area_accidents.executor": "Run",
+    "Python tests.Python tests for date_test.test_get_reason_of_area_accidents.executor": "Run",
+    "Python tests.Python tests for date_test.test_get_statistic_area_accidents.executor": "Run",
+    "Python.app.executor": "Run",
     "Python.csv_repository.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -46,6 +55,92 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\shikago_exedent" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for date_test.test_count_accident_by_month">
+    <configuration name="Python tests for date_test.test_count_accident_by_day" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="shikago_exedent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;date_test.test_count_accident_by_day&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for date_test.test_count_accident_by_month" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="shikago_exedent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;date_test.test_count_accident_by_month&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for date_test.test_count_accident_by_week" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="shikago_exedent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;date_test.test_count_accident_by_week&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for date_test.test_get_reason_of_area_accidents" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="shikago_exedent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;date_test.test_get_reason_of_area_accidents&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for date_test.test_get_statistic_area_accidents" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="shikago_exedent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;date_test.test_get_statistic_area_accidents&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for date_test.test_count_accident_by_month" />
+        <item itemvalue="Python tests.Python tests for date_test.test_count_accident_by_week" />
+        <item itemvalue="Python tests.Python tests for date_test.test_count_accident_by_day" />
+        <item itemvalue="Python tests.Python tests for date_test.test_get_statistic_area_accidents" />
+        <item itemvalue="Python tests.Python tests for date_test.test_get_reason_of_area_accidents" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -111,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728561803454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create endpoint for area andrepo (area, date)">
+      <option name="closed" value="true" />
+      <created>1728562722474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728562722474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +223,7 @@
     <MESSAGE value="create init year month and day colaction" />
     <MESSAGE value="aded init area" />
     <MESSAGE value="aded repository for area and date" />
-    <option name="LAST_COMMIT_MESSAGE" value="aded repository for area and date" />
+    <MESSAGE value="create endpoint for area andrepo (area, date)" />
+    <option name="LAST_COMMIT_MESSAGE" value="create endpoint for area andrepo (area, date)" />
   </component>
 </project>

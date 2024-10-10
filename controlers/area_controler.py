@@ -1,13 +1,10 @@
 from flask import Blueprint, jsonify, request
-from database.connect import area_colaction
-from bson import ObjectId
 from repository.area_repository import get_statictic_injuries_by_area, get_count_eccident_by_area, get_contributing_factors
-
 area_bp = Blueprint('area', __name__)
 
 
 @area_bp.route('/count', methods=['GET'])
-def get_count_eccident_by_area():
+def get_count_eccident_by_area_endpoint():
     area = request.args.get('area')
     if not area:
         return jsonify({"error": "Area parameter is required"}), 400

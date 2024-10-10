@@ -2,7 +2,7 @@ from database.connect import daily, weekly, monthly
 
 
 def find_by_day(date, area):
-    return list(daily.find({'data': date, 'area': area}))
+    return list(daily.find({'date': date, 'area': area}))
 
 
 def find_by_week(date, area):
