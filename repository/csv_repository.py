@@ -1,6 +1,6 @@
 import csv
 import os
-from database.connect import daily, weekly, monthly, area_colaction
+from database.connect import daily, weekly, monthly, area_collection
 from utils.data_utils import parse_date, get_week_range, safe_int
 
 
@@ -12,7 +12,7 @@ def read_csv(path: str):
 
 
 def init_accidents():
-    data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'data.csv')
+    data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'big_data.csv')
     for row in read_csv(data_path):
         crash_date = parse_date(row['CRASH_DATE'])
         area = row['BEAT_OF_OCCURRENCE']
@@ -62,7 +62,7 @@ def init_accidents():
             upsert=True
         )
         # Area document
-        area_colaction.update_one(
+        area_collection.update_one(
             {'area': area},
             {'$inc': {
                 'total_accidents': 1,
@@ -74,4 +74,4 @@ def init_accidents():
             upsert=True
         )
     return "ok"
-
+init_accidents()
