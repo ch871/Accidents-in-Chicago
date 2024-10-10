@@ -11,8 +11,6 @@ def find_by_day_endpoint():
     # Get the date and area from query parameters
     date = request.args.get('date')
     area = request.args.get('area')
-    print(date,area)
-
     if date is None or area is None:
         return jsonify({"error": "Both 'date' and 'area' parameters are required"}), 400
 
